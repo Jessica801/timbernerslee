@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    margin:0;
+}
+
+#tim {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 15%;
+    border-radius: 50%;
+}
+
+#intro {
+    background: linear-gradient(#4268a6 20%, #e663ce 80%);
+    height: 800px;
+    font-family: 'Comic Neue', cursive;
+    z-index: 9;
+}
+#line{
+    width: 70px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.menu{
+    font-family: fantasy;
+    list-style: none;
+    position:fixed;
+    cursor: pointer;
+    z-index: 999;
+    
+}
+
+.links{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.links:hover{
+    background-color: aliceblue;
+}
+
+p{
+    
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
